@@ -1,0 +1,1219 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C9683C810D0536EF77B21635D2311EFD /* Build configuration list for PBXAggregateTarget "ZendeskSDKConfigurationsSDK" */;
+			buildPhases = (
+				0D4D20E1C3A211336D57438B881D1FC4 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = ZendeskSDKConfigurationsSDK;
+		};
+		37E8A7EE87D035876454F72D479BE040 /* ZendeskChatSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5A4E2AC1EA4D1E37B1E6DCD9A2FA9CA0 /* Build configuration list for PBXAggregateTarget "ZendeskChatSDK" */;
+			buildPhases = (
+				B53E278D963B3CA7D9B8B0B4D17F4411 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				D288AEEB181A7AF57A051CBA2D06731E /* PBXTargetDependency */,
+				4D263767DD08448409F878C733CCD274 /* PBXTargetDependency */,
+			);
+			name = ZendeskChatSDK;
+		};
+		AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3FD8E213A1E92F07E09D72187C024641 /* Build configuration list for PBXAggregateTarget "ZendeskCommonUISDK" */;
+			buildPhases = (
+				187D1D1C1D4FBBBE08A9815C0786F884 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = ZendeskCommonUISDK;
+		};
+		CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 57EEAB1239E06F362440D864CFC9C000 /* Build configuration list for PBXAggregateTarget "ZendeskChatProvidersSDK" */;
+			buildPhases = (
+				AC0AD8666B5E25C57EABF6848E1DA3E5 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = ZendeskChatProvidersSDK;
+		};
+		D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0956178963964CBE1F4219D107BC3A0D /* Build configuration list for PBXAggregateTarget "ZendeskMessagingAPISDK" */;
+			buildPhases = (
+				CA74767E3EA59F77577ECD89D71B51F3 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				256A005A966CD0D97FC1FC8D618D008E /* PBXTargetDependency */,
+			);
+			name = ZendeskMessagingAPISDK;
+		};
+		D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9C0DFCE2C6E83A23DFC7B6DF30CE5528 /* Build configuration list for PBXAggregateTarget "ZendeskMessagingSDK" */;
+			buildPhases = (
+				B4E801C6D7D5F9BAE0FB68B67F148359 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				B4D5A5C0438A60F4E76B553341E8179D /* PBXTargetDependency */,
+				45233AC47524CDC21681D3E93DFB6E67 /* PBXTargetDependency */,
+			);
+			name = ZendeskMessagingSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		401119E79284A9281CCC5D6A5814F0D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5EF365C4B0545E844124F473042EDB47 /* Pods-mySampleChatApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9076C898190EF8E28E8D7155CDC43B /* Pods-mySampleChatApp-dummy.m */; };
+		BC50CF84F1A312AF7778E4EABC550E2E /* Pods-mySampleChatApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A019746420ED32299F854B34E44AE2 /* Pods-mySampleChatApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27A43173BB8384AFAC721C8BA194F0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE5CA8995911366EA20FB62FDDF64CF;
+			remoteInfo = ZendeskChatProvidersSDK;
+		};
+		4101817CF8A7E9CFDEE282CC62B36D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F43F9AE813A5C024E5F9B8766CD7BD7;
+			remoteInfo = ZendeskSDKConfigurationsSDK;
+		};
+		50B1C66ECA1EDB09D57FCEF025BAB394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6C5B512338029B3195562CA1FAB3FF;
+			remoteInfo = ZendeskCommonUISDK;
+		};
+		54EF536ED69CCC0AECCF76257A6354D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE5CA8995911366EA20FB62FDDF64CF;
+			remoteInfo = ZendeskChatProvidersSDK;
+		};
+		5C5999AD63AA0A4C517447CEBC492846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F43F9AE813A5C024E5F9B8766CD7BD7;
+			remoteInfo = ZendeskSDKConfigurationsSDK;
+		};
+		868130ADEFB736C2A049E63EFC05AD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FA74719A43C5D8075E0A71C342EDB7;
+			remoteInfo = ZendeskMessagingAPISDK;
+		};
+		917EC53EBBF62E8FA0EB453378482F15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6C5B512338029B3195562CA1FAB3FF;
+			remoteInfo = ZendeskCommonUISDK;
+		};
+		AC49AEE954B2F745743CDBC0AF2DE286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E8A7EE87D035876454F72D479BE040;
+			remoteInfo = ZendeskChatSDK;
+		};
+		BB34AFD1BFCB1312DE54EA522FAB3DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
+			remoteInfo = ZendeskMessagingSDK;
+		};
+		DDC4A7ADC120DC68ED09BFE6D7DD5E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C4611B429142D173AD077CF82E8897;
+			remoteInfo = ZendeskMessagingSDK;
+		};
+		F8D07647E084095A41A0CAE57C780B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FA74719A43C5D8075E0A71C342EDB7;
+			remoteInfo = ZendeskMessagingAPISDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0820CE04B2BCFF0168D669BB8D4C37F2 /* ZendeskCommonUISDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCommonUISDK.debug.xcconfig; sourceTree = "<group>"; };
+		165463B2E9D4857281BB28926A432903 /* ZendeskSDKConfigurationsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSDKConfigurationsSDK.release.xcconfig; sourceTree = "<group>"; };
+		2228019AE7C9E658A67B03779FE8F560 /* Pods-mySampleChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mySampleChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		226A86E1E24D5D34E16BA9D8BFA04D35 /* ZendeskChatProvidersSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatProvidersSDK.release.xcconfig; sourceTree = "<group>"; };
+		26640CA18965BD44530646739B6BE56A /* ZendeskSDKConfigurationsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskSDKConfigurationsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		2B425F8FA22A437CFA42654F495895AF /* ZendeskMessagingSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskMessagingSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		2EB7599AFC024957266A7AAFE8A2E544 /* MessagingAPI.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MessagingAPI.xcframework; sourceTree = "<group>"; };
+		2F335178F640102F358679F2A520EFCD /* ZendeskMessagingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingSDK.debug.xcconfig; sourceTree = "<group>"; };
+		31F7294C708FDBF71F6136CE38214D0B /* ZendeskMessagingAPISDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingAPISDK.release.xcconfig; sourceTree = "<group>"; };
+		3E1476636DF71B4D20821BF1B06974E6 /* ZendeskChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatSDK.release.xcconfig; sourceTree = "<group>"; };
+		3E490D357C827FC8CDBDE27454E56206 /* SDKConfigurations.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SDKConfigurations.xcframework; sourceTree = "<group>"; };
+		466D403805AD75A809622C1075A53701 /* Pods-mySampleChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mySampleChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		4FF9774450D6AFBA21D2A9D7C7BF5169 /* Pods-mySampleChatApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mySampleChatApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		5219B6A88944B5F0A880804475311046 /* Pods-mySampleChatApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mySampleChatApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59F19C9264B6CF83CC6809C7A823BCAD /* Pods-mySampleChatApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mySampleChatApp"; path = Pods_mySampleChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F26BE0373F0884E386975331CB8D841 /* Pods-mySampleChatApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mySampleChatApp.modulemap"; sourceTree = "<group>"; };
+		5F57DE0F14F96F8B0918BE5EE3FAFE2B /* CommonUISDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CommonUISDK.xcframework; sourceTree = "<group>"; };
+		5FE8E4D0D8F8A2CA0A54DE7F133B0DB0 /* Pods-mySampleChatApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mySampleChatApp-Info.plist"; sourceTree = "<group>"; };
+		634C910C93783D795466BD1175690107 /* ZendeskMessagingAPISDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingAPISDK.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		740C2B60DB72241095AEEB43E731CCDF /* ZendeskChatSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskChatSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		7648C476028354E97382720ED9798F6B /* ChatProvidersSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ChatProvidersSDK.xcframework; sourceTree = "<group>"; };
+		7A23DBE36DED9C3471DF139471D5043C /* ZendeskSDKConfigurationsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskSDKConfigurationsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		7C9076C898190EF8E28E8D7155CDC43B /* Pods-mySampleChatApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mySampleChatApp-dummy.m"; sourceTree = "<group>"; };
+		80E66402F3948231C458B8E7D2C8E072 /* ZendeskCommonUISDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskCommonUISDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		95EDED3967655A8BC1FF10CD1E93F057 /* ChatSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ChatSDK.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2FF9C69CEACF78C2A13688CFE5BE821 /* ZendeskChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatSDK.debug.xcconfig; sourceTree = "<group>"; };
+		C6A019746420ED32299F854B34E44AE2 /* Pods-mySampleChatApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mySampleChatApp-umbrella.h"; sourceTree = "<group>"; };
+		D1147C9CF1123E47870B6B580CA626AB /* MessagingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MessagingSDK.xcframework; sourceTree = "<group>"; };
+		D1D52FF7442EDE484226106D5CD87693 /* ZendeskMessagingAPISDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskMessagingAPISDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		EAD834347A937FE72C49436A393BE551 /* Pods-mySampleChatApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mySampleChatApp-frameworks.sh"; sourceTree = "<group>"; };
+		EC30A776F43BE06F050306DC253C121B /* ZendeskChatProvidersSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskChatProvidersSDK.debug.xcconfig; sourceTree = "<group>"; };
+		F51EDB485E1EAF3CCF372AB4400D1AF0 /* ZendeskMessagingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskMessagingSDK.release.xcconfig; sourceTree = "<group>"; };
+		F57AFDC4672AC6B9CF1DC9FF7076BAA1 /* ZendeskCommonUISDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZendeskCommonUISDK.release.xcconfig; sourceTree = "<group>"; };
+		FE6F3ED2E6B2CAE07C123DD48FEC9640 /* ZendeskChatProvidersSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZendeskChatProvidersSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1B79F83597D58BA9E7372D3329AB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401119E79284A9281CCC5D6A5814F0D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1076035A2937AD02A74C22CFDD3E8811 /* ZendeskCommonUISDK */ = {
+			isa = PBXGroup;
+			children = (
+				C99DB04333F8F7C732F28E313148ECF4 /* Frameworks */,
+				C78DB100250F214B691BB5C9A1AE6746 /* Support Files */,
+			);
+			name = ZendeskCommonUISDK;
+			path = ZendeskCommonUISDK;
+			sourceTree = "<group>";
+		};
+		11F5135D31DA16754F5DDF1603EDE92D /* ZendeskChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5579F6C7AA28A66D460BEEEED0B3BBF6 /* Frameworks */,
+				F36AA8E00B6AF6824C61A3503A29E795 /* Support Files */,
+			);
+			name = ZendeskChatSDK;
+			path = ZendeskChatSDK;
+			sourceTree = "<group>";
+		};
+		209959186BDF894BB73EA15937539939 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B425F8FA22A437CFA42654F495895AF /* ZendeskMessagingSDK-xcframeworks.sh */,
+				2F335178F640102F358679F2A520EFCD /* ZendeskMessagingSDK.debug.xcconfig */,
+				F51EDB485E1EAF3CCF372AB4400D1AF0 /* ZendeskMessagingSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskMessagingSDK";
+			sourceTree = "<group>";
+		};
+		2B2D42FAD26CD9EDEF128EC048E4894C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1D52FF7442EDE484226106D5CD87693 /* ZendeskMessagingAPISDK-xcframeworks.sh */,
+				634C910C93783D795466BD1175690107 /* ZendeskMessagingAPISDK.debug.xcconfig */,
+				31F7294C708FDBF71F6136CE38214D0B /* ZendeskMessagingAPISDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskMessagingAPISDK";
+			sourceTree = "<group>";
+		};
+		4A7E410620EC415C3B4C32D2807FE2A2 /* ZendeskSDKConfigurationsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7A9D30AB568A5927FFCB194407A9E243 /* Frameworks */,
+				AEC2F32B4FCDE4CF82E5DB22A349404A /* Support Files */,
+			);
+			name = ZendeskSDKConfigurationsSDK;
+			path = ZendeskSDKConfigurationsSDK;
+			sourceTree = "<group>";
+		};
+		4BD6EFDBB5B183F5072403AD66664CA0 /* ZendeskMessagingAPISDK */ = {
+			isa = PBXGroup;
+			children = (
+				A797BDF9D80300665D20845A0AF1CD4E /* Frameworks */,
+				2B2D42FAD26CD9EDEF128EC048E4894C /* Support Files */,
+			);
+			name = ZendeskMessagingAPISDK;
+			path = ZendeskMessagingAPISDK;
+			sourceTree = "<group>";
+		};
+		5579F6C7AA28A66D460BEEEED0B3BBF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95EDED3967655A8BC1FF10CD1E93F057 /* ChatSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D4289E79B2DE12E14CBC32D12D51D31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1147C9CF1123E47870B6B580CA626AB /* MessagingSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70D7EA0EA73321462AD9792B9555C21B /* ZendeskChatProvidersSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EBD519F69251634BE16FA67153D7C72D /* Frameworks */,
+				9E3E0E812F05E62176C1731F495B99C4 /* Support Files */,
+			);
+			name = ZendeskChatProvidersSDK;
+			path = ZendeskChatProvidersSDK;
+			sourceTree = "<group>";
+		};
+		7A9D30AB568A5927FFCB194407A9E243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E490D357C827FC8CDBDE27454E56206 /* SDKConfigurations.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85B493199F841443AF80AB594023967C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59F19C9264B6CF83CC6809C7A823BCAD /* Pods-mySampleChatApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E3E0E812F05E62176C1731F495B99C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F3ED2E6B2CAE07C123DD48FEC9640 /* ZendeskChatProvidersSDK-xcframeworks.sh */,
+				EC30A776F43BE06F050306DC253C121B /* ZendeskChatProvidersSDK.debug.xcconfig */,
+				226A86E1E24D5D34E16BA9D8BFA04D35 /* ZendeskChatProvidersSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskChatProvidersSDK";
+			sourceTree = "<group>";
+		};
+		A6622EF2D5AB7BF1D182332D97DC6E16 /* Pods-mySampleChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				5F26BE0373F0884E386975331CB8D841 /* Pods-mySampleChatApp.modulemap */,
+				5219B6A88944B5F0A880804475311046 /* Pods-mySampleChatApp-acknowledgements.markdown */,
+				4FF9774450D6AFBA21D2A9D7C7BF5169 /* Pods-mySampleChatApp-acknowledgements.plist */,
+				7C9076C898190EF8E28E8D7155CDC43B /* Pods-mySampleChatApp-dummy.m */,
+				EAD834347A937FE72C49436A393BE551 /* Pods-mySampleChatApp-frameworks.sh */,
+				5FE8E4D0D8F8A2CA0A54DE7F133B0DB0 /* Pods-mySampleChatApp-Info.plist */,
+				C6A019746420ED32299F854B34E44AE2 /* Pods-mySampleChatApp-umbrella.h */,
+				2228019AE7C9E658A67B03779FE8F560 /* Pods-mySampleChatApp.debug.xcconfig */,
+				466D403805AD75A809622C1075A53701 /* Pods-mySampleChatApp.release.xcconfig */,
+			);
+			name = "Pods-mySampleChatApp";
+			path = "Target Support Files/Pods-mySampleChatApp";
+			sourceTree = "<group>";
+		};
+		A797BDF9D80300665D20845A0AF1CD4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EB7599AFC024957266A7AAFE8A2E544 /* MessagingAPI.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEC2F32B4FCDE4CF82E5DB22A349404A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A23DBE36DED9C3471DF139471D5043C /* ZendeskSDKConfigurationsSDK-xcframeworks.sh */,
+				26640CA18965BD44530646739B6BE56A /* ZendeskSDKConfigurationsSDK.debug.xcconfig */,
+				165463B2E9D4857281BB28926A432903 /* ZendeskSDKConfigurationsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskSDKConfigurationsSDK";
+			sourceTree = "<group>";
+		};
+		B60FC53D8CB0A505FEE44B56BA94CC5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70D7EA0EA73321462AD9792B9555C21B /* ZendeskChatProvidersSDK */,
+				11F5135D31DA16754F5DDF1603EDE92D /* ZendeskChatSDK */,
+				1076035A2937AD02A74C22CFDD3E8811 /* ZendeskCommonUISDK */,
+				4BD6EFDBB5B183F5072403AD66664CA0 /* ZendeskMessagingAPISDK */,
+				D56F4BAAE3476D8F54B3C8362FDDAA07 /* ZendeskMessagingSDK */,
+				4A7E410620EC415C3B4C32D2807FE2A2 /* ZendeskSDKConfigurationsSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C78DB100250F214B691BB5C9A1AE6746 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80E66402F3948231C458B8E7D2C8E072 /* ZendeskCommonUISDK-xcframeworks.sh */,
+				0820CE04B2BCFF0168D669BB8D4C37F2 /* ZendeskCommonUISDK.debug.xcconfig */,
+				F57AFDC4672AC6B9CF1DC9FF7076BAA1 /* ZendeskCommonUISDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskCommonUISDK";
+			sourceTree = "<group>";
+		};
+		C99DB04333F8F7C732F28E313148ECF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F57DE0F14F96F8B0918BE5EE3FAFE2B /* CommonUISDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B60FC53D8CB0A505FEE44B56BA94CC5C /* Pods */,
+				85B493199F841443AF80AB594023967C /* Products */,
+				F749364CB4A6322A624F9A9FC2CAC7DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D56F4BAAE3476D8F54B3C8362FDDAA07 /* ZendeskMessagingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5D4289E79B2DE12E14CBC32D12D51D31 /* Frameworks */,
+				209959186BDF894BB73EA15937539939 /* Support Files */,
+			);
+			name = ZendeskMessagingSDK;
+			path = ZendeskMessagingSDK;
+			sourceTree = "<group>";
+		};
+		EBD519F69251634BE16FA67153D7C72D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7648C476028354E97382720ED9798F6B /* ChatProvidersSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F36AA8E00B6AF6824C61A3503A29E795 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				740C2B60DB72241095AEEB43E731CCDF /* ZendeskChatSDK-xcframeworks.sh */,
+				C2FF9C69CEACF78C2A13688CFE5BE821 /* ZendeskChatSDK.debug.xcconfig */,
+				3E1476636DF71B4D20821BF1B06974E6 /* ZendeskChatSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZendeskChatSDK";
+			sourceTree = "<group>";
+		};
+		F749364CB4A6322A624F9A9FC2CAC7DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6622EF2D5AB7BF1D182332D97DC6E16 /* Pods-mySampleChatApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E3A7245640DADBB9AF7996857D471DC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC50CF84F1A312AF7778E4EABC550E2E /* Pods-mySampleChatApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C442F5CB0260558B044249842F72BCA2 /* Pods-mySampleChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E0A4F10DD02C1229EC50AD98C80146 /* Build configuration list for PBXNativeTarget "Pods-mySampleChatApp" */;
+			buildPhases = (
+				E3A7245640DADBB9AF7996857D471DC6 /* Headers */,
+				209A6658D6DFB4AF2A48D2D7681DD254 /* Sources */,
+				1E1B79F83597D58BA9E7372D3329AB8B /* Frameworks */,
+				A9905FAF8EEF5C187A3943DA8016A7F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377DA18E18A1EB4F86252EB70E9E48D6 /* PBXTargetDependency */,
+				0A0BBC19A0AA7B1E58CDD7051B936B97 /* PBXTargetDependency */,
+				A70F768849AB905B1B7A9E5797306051 /* PBXTargetDependency */,
+				7FFA71FFA233ED70583285D77D05A550 /* PBXTargetDependency */,
+				2948FC7DE9D248E643E06A03A184A0A5 /* PBXTargetDependency */,
+				C3BF52917CC2A2C86DA2FBDCF75438F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-mySampleChatApp";
+			productName = Pods_mySampleChatApp;
+			productReference = 59F19C9264B6CF83CC6809C7A823BCAD /* Pods-mySampleChatApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 85B493199F841443AF80AB594023967C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C442F5CB0260558B044249842F72BCA2 /* Pods-mySampleChatApp */,
+				CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */,
+				37E8A7EE87D035876454F72D479BE040 /* ZendeskChatSDK */,
+				AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */,
+				D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */,
+				D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */,
+				0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9905FAF8EEF5C187A3943DA8016A7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D4D20E1C3A211336D57438B881D1FC4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSDKConfigurationsSDK/ZendeskSDKConfigurationsSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskSDKConfigurationsSDK/ZendeskSDKConfigurationsSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskSDKConfigurationsSDK/ZendeskSDKConfigurationsSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		187D1D1C1D4FBBBE08A9815C0786F884 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCommonUISDK/ZendeskCommonUISDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskCommonUISDK/ZendeskCommonUISDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskCommonUISDK/ZendeskCommonUISDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0AD8666B5E25C57EABF6848E1DA3E5 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatProvidersSDK/ZendeskChatProvidersSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatProvidersSDK/ZendeskChatProvidersSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskChatProvidersSDK/ZendeskChatProvidersSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E801C6D7D5F9BAE0FB68B67F148359 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingSDK/ZendeskMessagingSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingSDK/ZendeskMessagingSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskMessagingSDK/ZendeskMessagingSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53E278D963B3CA7D9B8B0B4D17F4411 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatSDK/ZendeskChatSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskChatSDK/ZendeskChatSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskChatSDK/ZendeskChatSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA74767E3EA59F77577ECD89D71B51F3 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingAPISDK/ZendeskMessagingAPISDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZendeskMessagingAPISDK/ZendeskMessagingAPISDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZendeskMessagingAPISDK/ZendeskMessagingAPISDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209A6658D6DFB4AF2A48D2D7681DD254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF365C4B0545E844124F473042EDB47 /* Pods-mySampleChatApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0BBC19A0AA7B1E58CDD7051B936B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskChatSDK;
+			target = 37E8A7EE87D035876454F72D479BE040 /* ZendeskChatSDK */;
+			targetProxy = AC49AEE954B2F745743CDBC0AF2DE286 /* PBXContainerItemProxy */;
+		};
+		256A005A966CD0D97FC1FC8D618D008E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskSDKConfigurationsSDK;
+			target = 0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */;
+			targetProxy = 4101817CF8A7E9CFDEE282CC62B36D02 /* PBXContainerItemProxy */;
+		};
+		2948FC7DE9D248E643E06A03A184A0A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskMessagingSDK;
+			target = D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */;
+			targetProxy = DDC4A7ADC120DC68ED09BFE6D7DD5E17 /* PBXContainerItemProxy */;
+		};
+		377DA18E18A1EB4F86252EB70E9E48D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskChatProvidersSDK;
+			target = CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */;
+			targetProxy = 54EF536ED69CCC0AECCF76257A6354D0 /* PBXContainerItemProxy */;
+		};
+		45233AC47524CDC21681D3E93DFB6E67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskMessagingAPISDK;
+			target = D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */;
+			targetProxy = 868130ADEFB736C2A049E63EFC05AD6E /* PBXContainerItemProxy */;
+		};
+		4D263767DD08448409F878C733CCD274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskMessagingSDK;
+			target = D9C4611B429142D173AD077CF82E8897 /* ZendeskMessagingSDK */;
+			targetProxy = BB34AFD1BFCB1312DE54EA522FAB3DFE /* PBXContainerItemProxy */;
+		};
+		7FFA71FFA233ED70583285D77D05A550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskMessagingAPISDK;
+			target = D6FA74719A43C5D8075E0A71C342EDB7 /* ZendeskMessagingAPISDK */;
+			targetProxy = F8D07647E084095A41A0CAE57C780B4B /* PBXContainerItemProxy */;
+		};
+		A70F768849AB905B1B7A9E5797306051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskCommonUISDK;
+			target = AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */;
+			targetProxy = 917EC53EBBF62E8FA0EB453378482F15 /* PBXContainerItemProxy */;
+		};
+		B4D5A5C0438A60F4E76B553341E8179D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskCommonUISDK;
+			target = AC6C5B512338029B3195562CA1FAB3FF /* ZendeskCommonUISDK */;
+			targetProxy = 50B1C66ECA1EDB09D57FCEF025BAB394 /* PBXContainerItemProxy */;
+		};
+		C3BF52917CC2A2C86DA2FBDCF75438F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskSDKConfigurationsSDK;
+			target = 0F43F9AE813A5C024E5F9B8766CD7BD7 /* ZendeskSDKConfigurationsSDK */;
+			targetProxy = 5C5999AD63AA0A4C517447CEBC492846 /* PBXContainerItemProxy */;
+		};
+		D288AEEB181A7AF57A051CBA2D06731E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZendeskChatProvidersSDK;
+			target = CDE5CA8995911366EA20FB62FDDF64CF /* ZendeskChatProvidersSDK */;
+			targetProxy = 27A43173BB8384AFAC721C8BA194F0B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		236F859D92DDA46A6B2E873766141A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F7294C708FDBF71F6136CE38214D0B /* ZendeskMessagingAPISDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DEFF91D2CD021BBB5A3CF03ABD606BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1476636DF71B4D20821BF1B06974E6 /* ZendeskChatSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		493E23D3C6B135C3FE4B87B18B234801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC30A776F43BE06F050306DC253C121B /* ZendeskChatProvidersSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C17E054EC1341E1195D31B906DD8DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226A86E1E24D5D34E16BA9D8BFA04D35 /* ZendeskChatProvidersSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E178757466388A1F39B2767233DFF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0820CE04B2BCFF0168D669BB8D4C37F2 /* ZendeskCommonUISDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6612A18C5A830BD4C669F57BCE6D3918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634C910C93783D795466BD1175690107 /* ZendeskMessagingAPISDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74D413FA6B42FAD68D36A272E3D5D225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F335178F640102F358679F2A520EFCD /* ZendeskMessagingSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7EB97E119A210090F2C99E47E011D395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466D403805AD75A809622C1075A53701 /* Pods-mySampleChatApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mySampleChatApp/Pods-mySampleChatApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mySampleChatApp/Pods-mySampleChatApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE6F31D934D4CBF9E5FC8365A6B4E0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2228019AE7C9E658A67B03779FE8F560 /* Pods-mySampleChatApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mySampleChatApp/Pods-mySampleChatApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mySampleChatApp/Pods-mySampleChatApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBB12AE3684EE6750750E2551ED9DB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FF9C69CEACF78C2A13688CFE5BE821 /* ZendeskChatSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F239C7375514ECF1EA428C92C9AC4BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165463B2E9D4857281BB28926A432903 /* ZendeskSDKConfigurationsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7AC1830A3E6C4B45B05A0AC48C99A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26640CA18965BD44530646739B6BE56A /* ZendeskSDKConfigurationsSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1F3764F651A9AA8D3DD8497ED9CAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51EDB485E1EAF3CCF372AB4400D1AF0 /* ZendeskMessagingSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6E5AA69BBEBDAC88329AA86E543526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57AFDC4672AC6B9CF1DC9FF7076BAA1 /* ZendeskCommonUISDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0956178963964CBE1F4219D107BC3A0D /* Build configuration list for PBXAggregateTarget "ZendeskMessagingAPISDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6612A18C5A830BD4C669F57BCE6D3918 /* Debug */,
+				236F859D92DDA46A6B2E873766141A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD8E213A1E92F07E09D72187C024641 /* Build configuration list for PBXAggregateTarget "ZendeskCommonUISDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E178757466388A1F39B2767233DFF45 /* Debug */,
+				FC6E5AA69BBEBDAC88329AA86E543526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57EEAB1239E06F362440D864CFC9C000 /* Build configuration list for PBXAggregateTarget "ZendeskChatProvidersSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493E23D3C6B135C3FE4B87B18B234801 /* Debug */,
+				4C17E054EC1341E1195D31B906DD8DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4E2AC1EA4D1E37B1E6DCD9A2FA9CA0 /* Build configuration list for PBXAggregateTarget "ZendeskChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB12AE3684EE6750750E2551ED9DB30 /* Debug */,
+				2DEFF91D2CD021BBB5A3CF03ABD606BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E0A4F10DD02C1229EC50AD98C80146 /* Build configuration list for PBXNativeTarget "Pods-mySampleChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6F31D934D4CBF9E5FC8365A6B4E0DC /* Debug */,
+				7EB97E119A210090F2C99E47E011D395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C0DFCE2C6E83A23DFC7B6DF30CE5528 /* Build configuration list for PBXAggregateTarget "ZendeskMessagingSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D413FA6B42FAD68D36A272E3D5D225 /* Debug */,
+				FA1F3764F651A9AA8D3DD8497ED9CAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9683C810D0536EF77B21635D2311EFD /* Build configuration list for PBXAggregateTarget "ZendeskSDKConfigurationsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AC1830A3E6C4B45B05A0AC48C99A1E /* Debug */,
+				F239C7375514ECF1EA428C92C9AC4BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
